@@ -1,0 +1,29 @@
+---
+title: "index"
+author: "Melvin Boateng"
+date: "2026-02-26"
+output: html_document
+---
+
+```{r setup, include=TRUE}
+knitr::opts_chunk$set(echo = TRUE)
+
+#Hosting R Markdown .html file on GitHub
+#2025-02-26
+#You will be hosting your project write-up on a GitHub page. Follow these steps to host the .html file corresponding to your R Markdown document on a GitHub webpage. You can also follow this GitHub tutorial (choose “Project site” and “Start from scratch”): https://pages.github.com/.
+
+#Step 1: Knit your R Markdown file to create a .html version
+#Pressing the “knit” button in RStudio should create a .html file in the directory your R Markdown document is currently saved in.
+#Rename this .html file as index.html.
+#Step 2: Create a new GitHub repository
+#Log into github.com. Create an account if you haven’t already.
+#Create a new public repository (for example, a repository called “COMP162_project”).
+#Add your .html file to the GitHub repository (for example, by #clicking “uploading an existing file” in “Quick setup”).
+#If you want to update this file, you can delete it and reupload.
+#Step 3: Setting up your GitHub page
+#Click on Settings –> Pages for your repository on GitHub.
+#Under “Branch,” you should see the message “GitHub Pages is currently disabled. Select a source below to enable GitHub Pages for this repository.”
+#Select the “main” branch and save.
+#You should now see a url where you can access your page. It will follow the form http://username.github.io/repository, for example https://juliaolivieri.github.io/COMP162_project/.
+```
+
